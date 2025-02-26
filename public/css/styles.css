@@ -1,0 +1,57 @@
+
+.one{
+    color: black;
+}
+.two{
+  color: black;
+}
+.three{
+  color: black;
+}
+.four{
+  color: black;
+}
+.five{
+color: black;
+}
+.six{
+color: black;
+}
+.img{
+  padding-right: 20px;
+  float: left;
+  height: 140px;
+  width: 120px;
+
+}
+
+  ul {
+    margin: 0;
+  }
+  
+  .bg-steel {
+    background-color: black;
+  }
+.para{
+  text-align:left;
+}
+.border{
+  border-right: 15px;
+  text-align: left;
+}
+
+.btn-spacing{
+  margin-right: 20px;
+}
+
+.btn-info{
+  border-radius: 10%;
+}
+
+.navbar-brand{
+  font-weight: bold;
+}
+
+.foot-h1{
+  text-align: center;
+}

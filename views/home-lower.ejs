@@ -1,0 +1,27 @@
+
+<div class="footer-dark">
+    <footer>
+        <div class="foot">
+            <div class="container text-center" >
+              <h1 class="my-3">The Dream Team</h1>
+              <div class="row justify-content-around" id="team-container">
+                
+              </div>
+    </footer>   
+    <script>
+      window.addEventListener("DOMContentLoaded",async ()=>{
+
+        const teamMembers = (await window.cfgAxios.get("/team")).data
+
+        document.querySelector("#team-container").innerHTML = teamMembers.map((member)=>{
+          return `
+            <div class="col-3">
+              <img src="${member.image}" style="max-width:200px"/>
+              <h5 class="my-3">${member.name}</h5>
+            </div>
+          `
+        }).join(" ")
+      })
+    </script>
+</div>
+    

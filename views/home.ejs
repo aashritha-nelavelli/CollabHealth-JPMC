@@ -1,0 +1,154 @@
+<%- include("header"); -%>
+<style>
+  /* .head{
+      position: relative;
+      left: 200px;
+      right:50px;
+  }
+  .head2{
+      position: relative;
+      left: 200px;
+      right:50px;
+  }
+  .b1{
+    position:relative;
+    top: 2px;
+    left: 1000px;
+    right:50px;
+    bottom: 1000px;
+  }
+  .b2{
+    position: relative;
+    top:35px;
+    left: 900px;
+    right:50px;
+  }
+  .div1{
+    background-color: rgb(140, 198, 198);
+  }
+  .image1{ 
+    left:5px;
+    width:180px;
+    height:180px;
+  }
+
+  .vision{
+     background-color: rgb(140, 198, 198);
+     text-align: center;
+     padding-bottom: 30px ;
+  }
+  .service{
+    padding: 20px 0 20px 0;
+    text-align: center;
+  }
+  .home-mid-text{
+    position: relative;
+    top: 150px;
+    right: 150px;
+    font-weight: bold;
+    font-size: large;
+  }
+  .home-btn-end{
+    position: relative;
+    top: 150px;
+    right: 200px;
+  }
+  .pad{
+    margin-left: 100px;
+  }
+  .image2.image3.image4{
+    background-color: transparent;
+  } */
+</style>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm ml-auto">
+      <img
+        style="width: 400px; height: 400px"
+        class="home-img"
+        src="/images/image.jpg"
+      />
+    </div>
+    <div class="col-sm home-mid-text d-flex align-items-center">
+      <div>
+        <h1
+          style="color: lightseagreen; font-size: 4.5rem"
+          class="text-center h1center"
+        >
+          Collab<span style="color: black">Health</span>
+        </h1>
+        <p class="text-center h1center">Your Health Care Service Aggregator</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="vision container text-center mt-4">
+  <div><h1 class="service mb-4">Services</h1></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm d-flex flex-column align-items-center">
+        <lottie-player
+          src="https://assets7.lottiefiles.com/packages/lf20_u1vbg6qk.json"
+          background="transparent"
+          speed="1"
+          style="
+            width: 300px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+          "
+          loop
+          autoplay
+        ></lottie-player>
+        <h3>5 Crucial medical services</h3>
+        <p>Get crucial services like MRI scan,X-rays,ECG & more</p>
+      </div>
+      <div class="col-sm d-flex flex-column align-items-center">
+        <lottie-player
+          src="https://assets6.lottiefiles.com/packages/lf20_pk5mpw6j.json"
+          background="transparent"
+          speed="1"
+          style="
+            width: 300px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+          "
+          loop
+          autoplay
+        ></lottie-player>
+        <h3>Intelligent System</h3>
+        <p>
+          Intelligently catagorises which diseases is covered under government
+          scheme
+        </p>
+      </div>
+      <div class="col-sm d-flex flex-column align-items-center">
+        <lottie-player
+          src="https://assets8.lottiefiles.com/packages/lf20_vktpsg4v.json"
+          background="transparent"
+          speed="1"
+          style="
+            width: 300px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+          "
+          loop
+          autoplay
+        ></lottie-player>
+
+        <!-- <img src="/images/image4.jpg" class="image4 mb-4" /> -->
+        <h3>Stats at your fingertips</h3>
+        <p>
+          Hospitals are provided fluid user interfaces to make sure they provide
+          the best in class services
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<%- include("main-form") -%> <%- include("home-lower") -%> <%- include("footer")
+-%>
